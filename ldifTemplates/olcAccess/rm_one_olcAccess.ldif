@@ -1,0 +1,12 @@
+##########################################################
+#dn: olcDatabase={1}mdb,cn=config
+#changetype: modify
+#delete: olcAccess
+#olcAccess: {0}to *
+#  by dn.exact="cn=replicator,dc=example,dc=com" read
+#  by * break
+##########################################################
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+delete: olcAccess
+olcAccess: {24}

@@ -1,0 +1,6 @@
+#Example of deleting something in DIT of Openldap
+#For Example Deleting an OU form DIT of Openldap
+
+ldapdelete -v -r -W -D "cn=admin,dc=part,dc=local" "cn=alice,ou=users,dc=part,dc=local"
+
+ldapdelete -v -r -W -D "cn=admin,dc=part,dc=local" "ou=Users,dc=part,dc=local"

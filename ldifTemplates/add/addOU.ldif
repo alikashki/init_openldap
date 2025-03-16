@@ -1,0 +1,4 @@
+dn: ou=Policy,dc=part,dc=local
+objectClass: organizationalUnit
+objectClass: top
+ou: Policy

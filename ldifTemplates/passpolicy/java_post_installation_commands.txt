@@ -1,0 +1,14 @@
+cd jdk-17/ #Enter Extracted Folder of JDK
+
+update-alternatives --install /usr/bin/java java /opt/java/jdk-17/bin/java 100
+update-alternatives --config java
+
+update-alternatives --install /usr/bin/javac javac /opt/java/jdk-17/bin/javac 100
+update-alternatives --config javac
+
+update-alternatives --install /usr/bin/jar jar /opt/java/jdk-17/bin/jar 100
+update-alternatives --config jar
+
+export JAVA_HOME=/opt/java/jdk-17
+export JRE_HOME=/opt/java/jdk-17/jre
+export PATH=$PATH:/opt/java/jdk-17/bin:/opt/java/jdk-17/jre/bin

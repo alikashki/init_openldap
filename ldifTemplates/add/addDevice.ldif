@@ -1,0 +1,5 @@
+dn: cn=printer-1,ou=devices,dc=part,dc=local
+objectClass: device
+cn: printer-1
+ou: devices
+member: cn=printer-1,ou=devices,dc=part,dc=local

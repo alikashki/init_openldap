@@ -1,0 +1,16 @@
+dn: cn=config
+changetype: modify
+replace: olcServerID
+olcServerID: 001
+
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+replace: olcSyncrepl
+olcSyncrepl: rid=001
+  provider=ldap://ldap-2-test.partdp.ir
+  bindmethod=simple
+  binddn="cn=replica_user,dc=part,dc=local" credentials=123
+  searchbase="dc=part,dc=local"
+  schemachecking=on
+  type=refreshAndPersist retry="60 +"
+  starttls=critical tls_reqcert=demand

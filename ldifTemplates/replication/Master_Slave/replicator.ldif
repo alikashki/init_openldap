@@ -1,0 +1,6 @@
+dn: cn=replica_user,dc=part,dc=loc
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: replica_user
+description: Replication user
+userPassword: 123

@@ -1,0 +1,4 @@
+dn: olcDatabase={2}hdb,cn=config
+changeType: modify
+replace: olcSuffix
+olcSuffix: dc=anisa,dc=local

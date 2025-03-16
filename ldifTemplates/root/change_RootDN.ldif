@@ -1,0 +1,4 @@
+dn: olcDatabase={2}hdb,cn=config
+changeType: modify
+replace: olcRootDN
+olcRootDN: cn=admin,dc=anisa,dc=local

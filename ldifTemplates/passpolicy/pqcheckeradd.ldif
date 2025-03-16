@@ -1,0 +1,10 @@
+dn: cn=ppolicy,dc=part,dc=local
+changetype: modify
+replace: pwdCheckQuality
+pwdCheckQuality: 2
+-
+add: objectclass
+objectclass: pwdPolicyChecker
+-
+add: pwdcheckmodule
+pwdcheckmodule: pqchecker.so

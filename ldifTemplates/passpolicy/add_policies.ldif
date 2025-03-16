@@ -1,0 +1,4 @@
+dn: cn=ppolicy,dc=part,dc=local
+changetype: modify
+add: pwdMinAge
+pwdMinAge: 86400

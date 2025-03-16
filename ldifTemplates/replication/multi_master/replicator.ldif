@@ -1,0 +1,6 @@
+dn: cn=rundeck_connector,dc=part,dc=local
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: rundeck_connector
+description: Trust user for rundeck
+userPassword: {SSHA}/0fWI+P8ZZvQOz/dyGJgml1tCV3EUc1I

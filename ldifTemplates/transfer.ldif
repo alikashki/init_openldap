@@ -1,0 +1,77 @@
+dn: uid=user1,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=user1
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=user2,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=user2
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=user3,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=user3
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=user4,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=user4
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=user5,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=user5
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=user6,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=user6
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=ali.mousavi,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=ali.mousavi
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=yaser.ahmadi,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=yaser.ahmadi
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=mohsen.nazemi,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=mohsen.nazemi
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=alireza.abedini,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=alireza.abedini
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=alireza.tajalli,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=alireza.tajalli
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=saeed.rouhbakhsh,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=saeed.rouhbakhsh
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local
+
+dn: uid=jafar.rasoulizadeh,ou=User,dc=part,dc=local
+changetype: moddn
+newrdn: uid=jafar.rasoulizadeh
+deleteoldrdn: 1
+newsuperior: ou=Users,dc=part,dc=local

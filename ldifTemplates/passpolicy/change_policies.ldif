@@ -1,0 +1,13 @@
+dn: cn=ppolicy,dc=part,dc=local
+changetype: modify
+replace: pwdFailureCountInterval
+pwdFailureCountInterval: 120
+-
+replace: pwdLockoutDuration
+pwdLockoutDuration: 120
+-
+replace: pwdMaxAge
+pwdMaxAge: 16070400
+-
+replace: pwdMinAge
+pwdMinAge: 86400

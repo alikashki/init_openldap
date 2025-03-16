@@ -1,0 +1,6 @@
+dn: cn=Grafana-Part-Viewer,ou=Services-Group,dc=part,dc=local
+objectClass: groupOfNames
+cn: Grafana-Part-Viewer
+ou: Services-Group
+member: cn=admin,dc=part,dc=local
+

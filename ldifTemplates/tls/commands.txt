@@ -1,0 +1,5 @@
+#Command for Disable Force TLS
+sudo ldapmodify -x -D "cn=config" -W -a -f forcetls_disable.ldif
+
+#Command for Enable Force TLS
+sudo ldapmodify -x -D "cn=config" -W -f forcetls_active.ldif

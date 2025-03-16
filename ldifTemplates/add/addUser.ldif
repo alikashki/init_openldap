@@ -1,0 +1,22 @@
+dn: uid=afshin.didehban,ou=Users,dc=part,dc=local
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: radiusprofile
+objectClass: posixAccount
+uid: afshin.didehban
+uidNumber: 1216
+gidNumber: 1002
+sn: afshin.didehban
+cn: afshin.didehban
+radiusTunnelMediumType: IEEE-802
+radiusTunnelType: VLAN
+radiusTunnelPrivateGroupId: 50
+homeDirectory: /home/afshin.didehban
+loginShell: bash
+gecos: afshin.didehban
+description: "User account"
+mail: afshin.didehban@partsoftware.com
+userPassword: {SSHA}M66gmhqV1Wl6WNZJsx1rtix95vLgcH67
+#memberOf: cn=Zimbra-partsoftware.com,ou=Services-Group,dc=part,dc=local

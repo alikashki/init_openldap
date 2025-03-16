@@ -1,0 +1,23 @@
+dn: cn=module{0},cn=config
+changetype: modify
+add: olcModuleLoad
+olcModuleLoad: syncprov.la
+
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+add: olcDbIndex
+olcDbIndex: entryCSN eq
+olcDbIndex: entryUUID eq
+-
+add: olcSyncrepl
+olcSyncrepl: rid=001
+  provider=ldap://fldap.partdp.ir
+  bindmethod=simple
+  binddn="cn=replica_user,dc=part,dc=loc" credentials=123
+  searchbase="dc=part,dc=loc"
+  schemachecking=on
+  type=refreshAndPersist retry="60 +"
+  starttls=critical tls_reqcert=demand
+-
+add: olcUpdateRef
+olcUpdateRef: ldap://fldap.partdp.ir

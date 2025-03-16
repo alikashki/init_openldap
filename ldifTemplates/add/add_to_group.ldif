@@ -1,0 +1,4 @@
+dn: cn=ipam-group,ou=Groups,dc=part,dc=local
+changetype: modify
+add: member
+member: uid=mohaddeseh.rezaee,ou=Users,dc=part,dc=local

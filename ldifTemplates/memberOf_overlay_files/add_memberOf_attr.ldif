@@ -1,0 +1,4 @@
+dn: uid=user1,ou=users,dc=part,dc=local
+changetype: modify
+add: memberOf
+memberOf: cn=security,ou=teams,dc=part,dc=local

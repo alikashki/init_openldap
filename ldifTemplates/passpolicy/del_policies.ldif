@@ -1,0 +1,5 @@
+dn: cn=ppolicy,dc=part,dc=local
+changetype: modify
+delete: pwdMinAge
+#-
+#delete: pwdInHistory
